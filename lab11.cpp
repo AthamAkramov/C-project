@@ -13,19 +13,6 @@ void find_maximum(int matrix[][100], int a, int b) {
     }
 }
 
-int main(){
-//  for_fun
-    // int a,b;
-    // cout << "enter the number of columns and rows numbers" << endl;
-    // cin >> a >> b;
-    // int main[a][b];
-    // for (int i = 0; i < a; i++){
-    //   for (int j = 0; j < b; j++){
-    //         main[i][j] = i;
-    //       cout << main[i][j] << " ";
-    //   }
-    //     cout << endl;
-    // }
 
     // problem1
     // int n, m;
@@ -285,19 +272,69 @@ int main(){
 //     cout << "The string is " << (isPalindrome(s) ? "" : "NOT") << " a palindrome.";
 
 
-
-
+ 
+    //Problem4.1
     
+//     string s;
+//     cout << "Enter a string: ";
+//     getline(cin,s);
+    
+    
+//     int freq[256] = {0};
+    
+//     for (char c : s) {
+//         freq[c]++;
+//     }
+   
+//   char maxChar;
+//   int maxCount = 0;
+   
+//   for (int i=0; i<256; i++) {
+//       if (freq[i] > maxCount) {
+//           maxCount = freq[i];
+//           maxChar = (char)i;
+//       }
+//   }
+   
+//   cout << "Most character used is: " <<maxChar << endl;
 
 
 
+//Problem5.1
+
+// string s;
+// cout << "Enter a string: ";
+// getline(cin,s);
+
+// bool seen[256] = {false};
+// string result;
+
+// for (char c : s) {
+//     if (!seen[c]) {
+//         result+=c;
+//         seen[c] = true;
+//     }
+// }
+
+// cout << "After removing duplication: " << result;
 
 
+//Problem6.1
+
+// string sentence;
+// cout << "Enter a sentence: ";
+// getline(cin, sentence);
+
+// stringstream ss(sentence);
+// string word, longestWord;
+
+// while (ss >> word) {
+//     if (word.length() > longestWord.length() ) {
+//         longestWord = word;
+//     }
+// }
+
+// cout << "Longest word: " << longestWord;
 
 
-
-
-
-
-
-}
+//}
