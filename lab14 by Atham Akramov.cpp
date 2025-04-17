@@ -149,13 +149,10 @@ fout << "Hello, File!";
 fout.close();
 
 
-
-
-
-
-
-
-
+//I have mock calculus exam tomorrow so i could have time to solve the rest (2-10)and also 
+//I did not understand very well.
+//I will definetly solve other problems for my own benefits in the weekends.
+// Thank you for understanding. 
 
 
 
